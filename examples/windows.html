@@ -12,9 +12,7 @@ window.onload = function()
         screen_container: document.getElementById("screen_container"),
         bios: { url: "../bios/seabios.bin" },
         vga_bios: { url: "../bios/vgabios.bin" },
-        filesystem: {
-            baseurl: "../images/alpine-rootfs-flat",
-            basefs: "../images/alpine-fs.json",
+       cdrom: { url: "../images/win.iso.iso"
         },
         autostart: true,
         bzimage_initrd_from_filesystem: true,
